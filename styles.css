@@ -1,0 +1,50 @@
+*{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+   color:rgb(9, 9, 9);
+}
+body{
+    opacity: 0.7;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: grid;
+    align-items: center;  
+    background-color: rgba(220, 168, 168, 0.671);  
+}
+button{
+    border:none;
+}
+.weather-info{
+    width:100%;
+}
+.enter-location{
+    width: 210px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    text-indent: 10px;
+}
+#ionicon{
+    display: none;
+}
+#current-location{
+    display:block;
+}
+.forecast::-webkit-scrollbar{
+    display: none;
+}
+.forecast {
+    width: 100%;
+    display: flex;
+    /* justify-content:start; */
+    overflow-x: scroll;
+}
+
+@media (width<720px){
+    .card {
+        width: max-content !important;
+        padding: 20px !important;
+    }
+}
